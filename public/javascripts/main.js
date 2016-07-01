@@ -5,8 +5,6 @@ jQuery(document).ready(function($) {
 				url: '/verfiy',
 				type: 'GET',
 				data: {
-					"userName": $('.userName').val(),
-					"password": $('.password').val(),
 					"captcha": $('.captcha').val()
 				},
 			})
