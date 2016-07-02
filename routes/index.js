@@ -22,6 +22,7 @@ router.get('/getCaptcha',function(req,res){
 	captchaData = ccap.get();
 	captchaText = captchaData[0];
 	captchaBuffer = captchaData[1];
+	console.log(captchaText);
 	res.send(captchaBuffer);
 });
 
